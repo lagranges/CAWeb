@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Colloque &laquo; Applis web &raquo; du 17 au 18 octobre 2015</h1>
+        <form action="/action_page.php">
+            <fieldset>
+                <legend>Pour vous inscrire, veuillez indiquer les informations suivantes:</legend>
+                <ul>
+                    <li>
+                        Nom:
+                        <input type="text" name="lastname"><br>
+                    </li>
+                    <li>
+                        Prénom:
+                        <input type="text" name="firstname"><br>
+                    </li>
+                    <li>
+                        Adresse de Facturation:<br>
+                        <textarea rows="4" cols="50" name="adfact"></textarea><br>
+                    </li>
+                    <li>
+                         <!--Le date ne marche pas au Firefox, mqis il peux mqrcher normalment au Chrome --> 
+                        Date d'arrive:
+                        <input type="date" name="arrive"> 
+                        Date de départ:
+                        <input type="date" name="depart"><br>
+                    </li>
+                    <li>
+                        Votre statut:
+                        <input type="radio" name="type" value="male" checked> Conférencier
+                        <input type="radio" name="type" value="female"> Chercheur
+                        <input type="radio" name="type" value="other"> Industriel
+                    </li>
+                    <li>
+                        Reservation souhaitée:
+                        <input type="checkbox" name="souhaitee:" value="Bike">Déjeuner du 17/10/2015
+                        <input type="checkbox" name="souhaitee:" value="Bike">Déjeuner du 18/10/2015
+                        <input type="checkbox" name="souhaitee:" value="Bike">Diner du 17/10/2015                        
+                        <input type="checkbox" name="souhaitee:" value="Bike">Diner du 18/10/2015
+                    </li>
+                </ul>
+                <input type="submit" value="S'inscrire">
+            </fieldset>
+        </form> 
+    </body>
+</html>
