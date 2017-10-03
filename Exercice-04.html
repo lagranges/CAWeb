@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html>
+    <title> Aide Mémoire</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style>
+            th{
+                font-weight: normal;
+                text-align: left;
+                vertical-align: top;
+                border: 1px solid;
+            }
+            th:first-child{
+                background-color:  	#A9A9A9;   
+                text-align: center;
+                padding: 5px;
+            }
+            th:nth-child(2){
+                padding: 5px;
+            }
+            th:last-child{
+                padding-right: 10px;
+            }
+            th:nth-last-child(2){
+                padding-right:10px;
+            }
+            tr:first-child {
+                background-color:  	#A9A9A9;
+            }
+            a{
+                color:#990033;
+            }
+    </style>
+    <body>
+        <p>Liste des balises</p>
+        <ul>
+            <li><a href="#a">&lt;a&gt;</a></li>
+            <li><a href="#address">&lt;adress&gt;</a></li>
+            <li><a href="#body">&lt;body&gt;</a></li>
+            <li><a href="#br">&lt;br&gt;</a></li>
+            <li><a href="#dd">&lt;dd&gt;</a></li>
+            <li><a href="#div">&lt;div&gt;</a></li>
+            <li><a href="#dl">&lt;dl&gt;</a></li>
+            <li><a href="#dt">&lt;dt&gt;</a></li>
+            <li><a href="#em">&lt;em&gt;</a></li>
+            <li><a href="#fieldset">&lt;fieldset&gt;</a></li>
+            <li><a href="#figure">&lt;figure&gt;</a></li>
+            <li><a href="#head">&lt;head&gt;</a></li>
+            <li><a href="#html">&lt;html&gt;</a></li>
+            <li><a href="#img">&lt;img&gt;</a></li>
+            <li><a href="#input">&lt;input&gt;</a></li>
+            <li><a href="#p">&lt;p&gt;</a></li>
+            <li><a href="#span">&lt;span&gt;</a></li>
+        </ul>
+
+        <p>Définition des balises HTML5</p>
+        <table style="width: 100%; ">
+            <tr>
+                <th><strong>Balise</strong></th>
+                <th><strong>Description</strong></th>
+                <th><strong>Attributs Communs</strong></th>
+                <th><strong>Attributs Propres</strong></th>
+            </tr>
+            <tr id="a">
+                <th><a>&lt;a&gt;</a></th>
+                <th>Utilisée pour les hyperliens. </th>
+                <th>
+                    <ul>
+                        <li>accesskey</li>
+                        <li>class</li>
+                        <li>contenteditable</li>
+                        <li>contextmenu</li>
+                        <li>draggable</li>
+                        <li>type</li>
+                        <li>dropzone</li>
+                        <li>hidden</li>
+                        <li>id</li>
+                        <li>lang</li>
+                        <li>spellcheck</li>
+                        <li>style</li>
+                        <li>tabindex</li>
+                        <li>title</li>
+                        <li>translate</li>
+                    </ul>
+                </th>
+                <th>
+                    <ul>
+                        <li>href</li>
+                        <li>target</li>
+                        <li>rel</li>
+                        <li>media</li>
+                        <li>hreflang</li>
+                        <li>type</li>
+                    </ul>
+                </th>
+            </tr>
+            <tr id='address'>
+                    <th><a>&lt;address&gt;</a></th>
+                    <th>Généralement utilisée dans le conteneur &lt;footer&gt;, cette balise est utilisée à la place de la balise <a href="#p">&lt;p&gt;</a>, les informations nécessaires pour contacter la ou les auteurs du document cité. Cela peut-être son nom ou un label suivi de son adresse email par-exemple ou adresse postale. Confusion possible : on utilisera la balise <a href="#p">&lt;p&gt;</a> pour donner l'adresse postale d'une entreprise sans relation avec l'auteur du document s'y rapportant. </th>
+                    <th>
+                            <ul>
+                                <li>accesskey</li>
+                                <li>class</li>
+                                <li>contenteditable</li>
+                                <li>contextmenu</li>
+                                <li>draggable</li>
+                                <li>type</li>
+                                <li>dropzone</li>
+                                <li>hidden</li>
+                                <li>id</li>
+                                <li>lang</li>
+                                <li>spellcheck</li>
+                                <li>style</li>
+                                <li>tabindex</li>
+                                <li>title</li>
+                                <li>translate</li>
+                            </ul>
+                    </th>
+                    <th>
+                    </th>
+            </tr>
+            <tr id='body'>
+                    <th><a>&lt;body&gt;</a></th>
+                    <th>Partie principale du document HTML.</th>
+                    <th>
+                            <ul>
+                                <li>accesskey</li>
+                                <li>class</li>
+                                <li>contenteditable</li>
+                                <li>contextmenu</li>
+                                <li>draggable</li>
+                                <li>type</li>
+                                <li>dropzone</li>
+                                <li>hidden</li>
+                                <li>id</li>
+                                <li>lang</li>
+                                <li>spellcheck</li>
+                                <li>style</li>
+                                <li>tabindex</li>
+                                <li>title</li>
+                                <li>translate</li>
+                            </ul>
+                    </th>
+                    <th>
+                            <ul>
+                                <li>onafterprint</li>
+                                <li>onbeforeprint</li>
+                                <li>onbeforeunload</li>
+                                <li>onblur</li>
+                                <li>onerror</li>
+                                <li>onfocus</li>
+                                <li>onhashchange</li>
+                                <li>onload</li>
+                                <li>onmessage</li>
+                                <li>onoffline</li>
+                                <li>ononline</li>
+                                <li>onpagehide</li>
+                                <li>onpageshow</li>
+                                <li>onpopstate</li>
+                                <li>onredo</li>
+                                <li>onresize</li>
+                                <li>onscroll</li>
+                                <li>onstorage</li>
+                                <li>onundo</li>
+                                <li>onunload</li>
+                            </ul>
+                    </th>
+            </tr>
+            <tr id='br'>
+                    <th><a>&lt;br&gt;</a></th>
+                    <th>Utilisée dans un paragraphe, cette balise permet de créer un saut de ligne. </th>
+                    <th>
+                            <ul>
+                                <li>accesskey</li>
+                                <li>class</li>
+                                <li>contenteditable</li>
+                                <li>contextmenu</li>
+                                <li>draggable</li>
+                                <li>type</li>
+                                <li>dropzone</li>
+                                <li>hidden</li>
+                                <li>id</li>
+                                <li>lang</li>
+                                <li>spellcheck</li>
+                                <li>style</li>
+                                <li>tabindex</li>
+                                <li>title</li>
+                                <li>translate</li>
+                            </ul>
+                    </th>
+                    <th></th>
+            </tr>
+            <tr id='dd'>
+                    <th><a>&lt;dd&gt;</a></th>
+                    <th>Pour la description d'une définition, s'utilise avec la balise <a href="#dl">&lt;dl&gt;</a>. </th>
+                    <th>
+                            <ul>
+                                <li>accesskey</li>
+                                <li>class</li>
+                                <li>contenteditable</li>
+                                <li>contextmenu</li>
+                                <li>draggable</li>
+                                <li>type</li>
+                                <li>dropzone</li>
+                                <li>hidden</li>
+                                <li>id</li>
+                                <li>lang</li>
+                                <li>spellcheck</li>
+                                <li>style</li>
+                                <li>tabindex</li>
+                                <li>title</li>
+                                <li>translate</li>
+                            </ul>
+                    </th>
+                    <th></th>
+            </tr>
+            <tr id='div'>
+                    <th><a>&lt;div&gt;</th>
+                    <th>Balise sans valeur sémantique réelle, elle sert de conteneur pour une mise en forme en CSS. Cette balise doit être utilisée en dernier recours, lorsqu'aucune autre balise ne peut convenir.  </th>
+                    <th>
+                            <ul>
+                                <li>accesskey</li>
+                                <li>class</li>
+                                <li>contenteditable</li>
+                                <li>contextmenu</li>
+                                <li>draggable</li>
+                                <li>type</li>
+                                <li>dropzone</li>
+                                <li>hidden</li>
+                                <li>id</li>
+                                <li>lang</li>
+                                <li>spellcheck</li>
+                                <li>style</li>
+                                <li>tabindex</li>
+                                <li>title</li>
+                                <li>translate</li>
+                            </ul>
+                    </th>
+                    <th></th>
+            </tr>
+            <tr id='dl'>
+                    <th><a>&lt;dl&gt;</a></th>
+                    <th>Pour une liste de définitions. Confusion possible : cette balise ne peut être utilisée pour créer des dialogues, les balises <a href="#p">&lt;p&gt</a>; restant appropriées.  </th>
+                    <th>
+                            <ul>
+                                <li>accesskey</li>
+                                <li>class</li>
+                                <li>contenteditable</li>
+                                <li>contextmenu</li>
+                                <li>draggable</li>
+                                <li>type</li>
+                                <li>dropzone</li>
+                                <li>hidden</li>
+                                <li>id</li>
+                                <li>lang</li>
+                                <li>spellcheck</li>
+                                <li>style</li>
+                                <li>tabindex</li>
+                                <li>title</li>
+                                <li>translate</li>
+                            </ul>
+                    </th>
+                    <th></th>
+            </tr>
+            <tr id='dt'>
+                    <th><a>&lt;dt&gt;</a></th>
+                    <th>Pour déclarer une définition, s'utilise avec la balise <a href="#dl">&lt;dl&gt;</a> </th>
+                    <th>
+                            <ul>
+                                <li>accesskey</li>
+                                <li>class</li>
+                                <li>contenteditable</li>
+                                <li>contextmenu</li>
+                                <li>draggable</li>
+                                <li>type</li>
+                                <li>dropzone</li>
+                                <li>hidden</li>
+                                <li>id</li>
+                                <li>lang</li>
+                                <li>spellcheck</li>
+                                <li>style</li>
+                                <li>tabindex</li>
+                                <li>title</li>
+                                <li>translate</li>
+                            </ul>
+                    </th>
+                    <th></th>
+            </tr>
+            <tr id='em'>
+                    <th><a>&lt;em&gt;</a></th>
+                    <th>Utilisé dans un paragraphe pour mettre une partie de texte en emphase. </th>
+                    <th>
+                            <ul>
+                                <li>accesskey</li>
+                                <li>class</li>
+                                <li>contenteditable</li>
+                                <li>contextmenu</li>
+                                <li>draggable</li>
+                                <li>type</li>
+                                <li>dropzone</li>
+                                <li>hidden</li>
+                                <li>id</li>
+                                <li>lang</li>
+                                <li>spellcheck</li>
+                                <li>style</li>
+                                <li>tabindex</li>
+                                <li>title</li>
+                                <li>translate</li>
+                            </ul>
+                    </th>
+                    <th></th>
+            </tr>
+            <tr id='fieldset'>
+                    <th><a>&lt;fieldset&gt;</a></th>
+                    <th>Pour regrouper des éléments d'un formulaire. </th>
+                    <th>
+                            <ul>
+                                <li>accesskey</li>
+                                <li>class</li>
+                                <li>contenteditable</li>
+                                <li>contextmenu</li>
+                                <li>draggable</li>
+                                <li>type</li>
+                                <li>dropzone</li>
+                                <li>hidden</li>
+                                <li>id</li>
+                                <li>lang</li>
+                                <li>spellcheck</li>
+                                <li>style</li>
+                                <li>tabindex</li>
+                                <li>title</li>
+                                <li>translate</li>
+                            </ul>
+                    </th>
+                    <th></th>
+            </tr>
+            <tr id='figure'>
+                    <th><a>&lt;figure&gt;</th>
+                    <th>Utilisée pour regrouper un ou plusieurs médias ( illustrations, diagrammes, exemples de code, photos...) attachés au document sans pour autant en suivre le flux. Les images s'y trouvant n'ont pas obligation d'être inséré dans une balise <a href="#p">&lt;p&gt;</a> et dans le cas d'une liste d'images, on peut omettre les listes à puce. On utilisera la balise figcaption pour décrire les médias utilisés. Confusion : cette balise ne doit être utilisée dès qu'il y a une image dans un article, on peut aussi la confondre avec la balise <a href="#aside">&lt;aside&gt;</a>. </th>
+                    <th>
+                            <ul>
+                                <li>accesskey</li>
+                                <li>class</li>
+                                <li>contenteditable</li>
+                                <li>contextmenu</li>
+                                <li>draggable</li>
+                                <li>type</li>
+                                <li>dropzone</li>
+                                <li>hidden</li>
+                                <li>id</li>
+                                <li>lang</li>
+                                <li>spellcheck</li>
+                                <li>style</li>
+                                <li>tabindex</li>
+                                <li>title</li>
+                                <li>translate</li>
+                            </ul>
+                    </th>
+                    <th></th>
+            </tr>
+            <tr id='head'>
+                    <th><a>&lt;head&gt;</a></th>
+                    <th>Pour les informations d'en tête du document HTML.  </th>
+                    <th>
+                            <ul>
+                                <li>accesskey</li>
+                                <li>class</li>
+                                <li>contenteditable</li>
+                                <li>contextmenu</li>
+                                <li>draggable</li>
+                                <li>type</li>
+                                <li>dropzone</li>
+                                <li>hidden</li>
+                                <li>id</li>
+                                <li>lang</li>
+                                <li>spellcheck</li>
+                                <li>style</li>
+                                <li>tabindex</li>
+                                <li>title</li>
+                                <li>translate</li>
+                            </ul>
+                    </th>
+                    <th></th>
+            </tr>
+            <tr id='html'>
+                    <th><a>&lt;html&gt;</th>
+                    <th>Déclaration du document HTML. On lui rajoutera l'attribut lang pour déclarer la langue utilisée. </th>
+                    <th>
+                            <ul>
+                                <li>accesskey</li>
+                                <li>class</li>
+                                <li>contenteditable</li>
+                                <li>contextmenu</li>
+                                <li>draggable</li>
+                                <li>type</li>
+                                <li>dropzone</li>
+                                <li>hidden</li>
+                                <li>id</li>
+                                <li>lang</li>
+                                <li>spellcheck</li>
+                                <li>style</li>
+                                <li>tabindex</li>
+                                <li>title</li>
+                                <li>translate</li>
+                            </ul>
+                    </th>
+                    <th></th>
+            </tr>
+            <tr id='img'>
+                    <th><a>&lt;img&gt;</a></th>
+                    <th>Pour déclarer une image. </th>
+                    <th>
+                            <ul>
+                                <li>accesskey</li>
+                                <li>class</li>
+                                <li>contenteditable</li>
+                                <li>contextmenu</li>
+                                <li>draggable</li>
+                                <li>type</li>
+                                <li>dropzone</li>
+                                <li>hidden</li>
+                                <li>id</li>
+                                <li>lang</li>
+                                <li>spellcheck</li>
+                                <li>style</li>
+                                <li>tabindex</li>
+                                <li>title</li>
+                                <li>translate</li>
+                            </ul>
+                    </th>
+                    <th>
+                            <ul>
+                                    <li>alt</li>
+                                    <li>src</li>
+                                    <li>usemap</li>
+                                    <li>ismap</li>
+                                    <li>width</li>
+                                    <li>height</li>
+                    </th>
+            </tr>
+            <tr id='input'>
+                    <th><a>&lt;input&gt;</a></th>
+                    <th>Pour un champ de texte. </th>
+                    <th>
+                            <ul>
+                                <li>accesskey</li>
+                                <li>class</li>
+                                <li>contenteditable</li>
+                                <li>contextmenu</li>
+                                <li>draggable</li>
+                                <li>type</li>
+                                <li>dropzone</li>
+                                <li>hidden</li>
+                                <li>id</li>
+                                <li>lang</li>
+                                <li>spellcheck</li>
+                                <li>style</li>
+                                <li>tabindex</li>
+                                <li>title</li>
+                                <li>translate</li>
+                            </ul>
+                    </th>
+                    <th>
+                            <ul>
+                                    <li>&gt;alt</li>
+                                    <li>accept</li>
+                                    <li>autocomplete</li>
+                                    <li>autofocus</li>
+                                    <li>checked</li>
+                                    <li>dirname</li>
+                                    <li>disabled</li>
+                                    <li>form</li>
+                                    <li>formaction</li>
+                                    <li>formenctype</li>
+                                    <li>formmethod</li>
+                                    <li>formnovalidate</li>
+                                    <li>..</li>
+                                    <li>required</li>
+                                    <li>size</li>
+                                    <li>src</li>
+                                    <li>step</li>
+                                    <li>type</li>
+                                    <li>value</li>
+                                    <li>width</li>
+                    </th>
+            </tr>
+            <tr id='input'>
+                    <th><a>&lt;input&gt;</a></th>
+                    <th>PItem d'une liste ordonnée ou à puce.  </th>
+                    <th>
+                            <ul>
+                                <li>reversed</li>
+                                <li>start</li>
+                                <li>type</li>
+                            </ul>
+                    </th>
+                    <th>
+                            <ul>
+                                    <li>&gt;alt</li>
+                                    <li>accept</li>
+                                    <li>autocomplete</li>
+                                    <li>autofocus</li>
+                                    <li>checked</li>
+                                    <li>dirname</li>
+                                    <li>disabled</li>
+                                    <li>form</li>
+                                    <li>formaction</li>
+                                    <li>formenctype</li>
+                                    <li>formmethod</li>
+                                    <li>formnovalidate</li>
+                                    <li>..</li>
+                                    <li>required</li>
+                                    <li>size</li>
+                                    <li>src</li>
+                                    <li>step</li>
+                                    <li>type</li>
+                                    <li>value</li>
+                                    <li>width</li>
+                            </ul>
+                    </th>
+            </tr>
+            <tr id='p'>
+                    <th><a>&lt;p&gt;</a></th>
+                    <th>Définis un paragraphe contenant une ou plusieurs phrases. Cette balise ne doit pas être utilisée si une autre balise est mieux indiquée.  </th>
+                    <th>
+                            <ul>
+                                <li>accesskey</li>
+                                <li>class</li>
+                                <li>contenteditable</li>
+                                <li>contextmenu</li>
+                                <li>draggable</li>
+                                <li>type</li>
+                                <li>dropzone</li>
+                                <li>hidden</li>
+                                <li>id</li>
+                                <li>lang</li>
+                                <li>spellcheck</li>
+                                <li>style</li>
+                                <li>tabindex</li>
+                                <li>title</li>
+                                <li>translate</li>
+                            </ul>
+                    </th>
+                    <th>
+                    </th>
+            </tr>
+            <tr id='span'>
+                    <th><a>&lt;span&gt;</a></th>
+                    <th>Utilisée pour mettre en style une portion de texte qui se différencie des autres. Cette balise ne doit pas être utilisée si une autre balise de formatage de texte convient mieux. </th>
+                    <th>
+                            <ul>
+                                <li>reversed</li>
+                                <li>start</li>
+                                <li>type</li>
+                            </ul>
+                    </th>
+                    <th>
+                    </th>
+            </tr>
+        </table>
+        
+    </body>
+</html>
