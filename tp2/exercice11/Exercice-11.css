@@ -1,0 +1,99 @@
+body  {
+  border: 1px solid black;
+  width: 99%;
+	height: 100%;
+}
+
+html{
+	height: 100%;
+}
+
+header{
+  border: 1px solid black;
+  float: left;
+  width: 100%;
+
+}
+
+main{
+  border: 1px solid black;
+	width: 100%;
+	float: left;
+	height: 50%;
+}
+
+footer{
+  float: left;
+  display: block;
+  height: 40px;
+  clear: both;
+  width: 100%;
+  border: 1px solid black;
+  text-align: center;
+  padding-top:
+}
+
+#recherche{
+  float: right;
+  margin-top: -60px;
+}
+
+#encart1{
+    width: 180px;
+    margin-top: 4ex;
+    border: 1px solid black;
+    float: right;
+}
+
+#encart2{
+
+    width: 180px;
+    margin-top: 4ex;
+    border: 1px solid black;
+    float: right;
+    clear: right;
+}
+
+#menu {
+  float: left;
+  width: 10em;
+  height: 100%;
+  border: 1px solid black;
+}
+
+.menu{
+	width: 7.5em;
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: absolute;
+	display: block;
+	border: 1px solid black;
+}
+
+
+#pub{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 100px;
+  border: 1px solid black;
+  text-align: center;
+  overflow: hidden;
+}
+
+#titre {
+    border: 1px solid black;
+    text-align: center;
+    height: 60px;
+		width: 91.3%;
+    position: inherit;
+    float: left;
+}
+
+#logo{
+  width: 120px;
+  height: 120px;
+  border: 1px solid black;
+  float: left;
+  margin-right: 20px;
+}
