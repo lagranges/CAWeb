@@ -1,0 +1,101 @@
+* {
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html{
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    counter-reset: section;
+}
+
+#menu ul{
+    width: 100%;
+    counter-reset: menu;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+#menu ul li{
+    color: #fff;
+    display: block;
+    text-align: center;
+    background-color: #777;
+    margin-top: 1px;
+    padding: 5px;
+    border: 1px solid #777;
+    border-radius: 4px;
+}
+
+#menu ul li::before{
+    counter-increment: menu;
+    font-variant: small-caps;
+    content: counter(menu) "-";
+}
+
+#menu ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+#contents {
+    background-color: #eee;
+    counter-reset: section;
+}
+
+#menu ul::before{
+    display: block;
+    content: "☰";
+    color: #fff;
+    background-color: #02b;
+    text-align: left;
+}
+
+#menu:hover{
+    /* overflow: visible; */
+    height: 144px;
+}    
+
+#menu {
+    height: 26px;
+    overflow: hidden;
+}
+
+.introduction {
+    border-top: 1px solid #777;
+}
+
+
+.section {
+    border-top: 2px solid #777;
+}
+
+.introduction h1::before{
+    counter-increment: section;
+    content: counter(section) "-Introduction of " ;    
+}
+
+.introduction h1 {
+    text-align: center;
+}
+
+.section h2::before{
+    counter-increment: section;
+    content: counter(section) "-";
+}
+
+.section h2 {
+    text-align: center;
+}
+
+.conclusion {
+    background-color: black;
+    color: #eee;
+    text-align: right;
+}
